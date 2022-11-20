@@ -6,11 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="keywords" content="place, Russian-travel" />
     <meta name="author" content="Dmitry Karpenko" />
-    <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="./pages/index.css" />
     <title>Russian-travel</title>
   </head>
-  <body class="page">
+  <body>
     <div class="root">
       <header class="header">
         <img
@@ -35,8 +34,14 @@
           <p class="lead__subtitle">
             Настоящая страна не в выпусках новостей, а здесь.
           </p>
-          <img class="lead__image" src="./images/lead-polka.jpg" alt="Карта" />
-          <h3 class="lead__caption">ваша полка — верхняя</h3>
+          <figure class="lead__images">
+            <img
+              class="lead__image"
+              src="./images/lead-polka.jpg"
+              alt="Карта"
+            />
+            <figcaption class="lead__caption">ваша полка — верхняя</figcaption>
+          </figure>
         </section>
         <section class="intro">
           <h2 class="intro__title">Чего мы&nbsp;там не&nbsp;видели?</h2>
@@ -301,22 +306,65 @@
           </article>
         </section>
         <section class="cover">
-          <h2 class="cover__title">До Байкала «на собаках»</h2>
-          <p class="cover__subtitle">
-            По мотивам учебной темы о Транссибе — путешествие от столицы до
-            Байкала на электричках.
-          </p>
+          <a
+            class="cover__background"
+            href="https://stampsy.com/na-elektrichkakh-do-baikala"
+            target="_blank"
+          >
+            <h2 class="cover__title">
+              До&nbsp;Байкала &laquo;на&nbsp;собаках&raquo;
+            </h2>
+            <p class="cover__subtitle">
+              По&nbsp;мотивам учебной темы о&nbsp;Транссибе&nbsp;&mdash;
+              путешествие от&nbsp;столицы до Байкала на&nbsp;электричках.
+            </p>
+          </a>
         </section>
       </main>
       <footer class="footer">
         <ul class="footer__menu">
-          <li><a class="footer__link" href="">Карты</a></li>
-          <li><a class="footer__link" href="">Погода</a></li>
-          <li><a class="footer__link" href="">Расписание</a></li>
-          <li><a class="footer__link" href="">Календарь</a></li>
-          <li><a class="footer__link" href="">Путешествия</a></li>
+          <li>
+            <a
+              class="footer__link"
+              href="https://yandex.ru/maps"
+              target="_blank"
+              >Карты</a
+            >
+          </li>
+          <li>
+            <a
+              class="footer__link"
+              href="https://yandex.ru/pogoda"
+              target="_blank"
+              >Погода</a
+            >
+          </li>
+          <li>
+            <a
+              class="footer__link"
+              href="https://rasp.yandex.ru"
+              target="_blank"
+              >Расписание</a
+            >
+          </li>
+          <li>
+            <a
+              class="footer__link"
+              href="https://calendar.yandex.ru"
+              target="_blank"
+              >Календарь</a
+            >
+          </li>
+          <li>
+            <a
+              class="footer__link"
+              href="https://travel.yandex.ru"
+              target="_blank"
+              >Путешествия</a
+            >
+          </li>
         </ul>
-        <h3 class="footer__copyright">© 2022. Карпенко Дмитрий</h3>
+        <h2 class="footer__copyright">© 2022. Карпенко Дмитрий</h2>
       </footer>
     </div>
   </body>

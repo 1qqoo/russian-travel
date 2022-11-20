@@ -15,13 +15,8 @@
   opacity: 0.8;
 }
 
-.header__lang-link_active {
-  text-decoration: underline;
-}
-
 @media screen and (max-width: 500px) {
   .header__lang-link {
-    font-weight: 400;
     font-size: 18px;
     line-height: 20px;
   }
